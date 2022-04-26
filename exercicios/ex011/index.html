@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir esse site em vários dispositirvos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+            <picture>
+                <!--LEMBRAR QUE DEVE SER UMA INDICAÇÃO ESCALONAVEL OU SEJA CODIGO IR DA MENOR IMAGEM PARA A MAIOR COMO O EXEMPLO A SEGUIR-->
+                <source media="(max-width: 550px)" srcset="imagens/foto-p.png" type="image/png">
+                <source media="(max-width: 750px)" srcset="imagens/foto-p-m.png" type="image/png">
+                <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+                <img src="imagens/foto-g.png" alt="Teste de imagem flexivel">
+            </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos reproduzir um audio em HTML5</p>
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/lab.wav" type="audio/wav">
+        <source src="midia/rainbow.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue reproduzir audio, clique aqui pra baixar o arquivo do audio.
+            <a href="midia/lab.wav"></a> Clique aqui para baixar o arquivo MP3.
+        </p>
+    </audio>
+</body>
+</html>
+<!-- NESTE EXEMPLO NO CASO É CRIADO UMA TELA RESPONSIVA COM TAMANHO ESCALONAVEL, OU SEJA CONFORME DIMINUIR E AUMENTAR A TELA O CODIGO DEVE ENTENDER QUE A IMAGEM DE FUNDO DEVE ALTERNAR CONFORME TAMANHO DA TELA... -->

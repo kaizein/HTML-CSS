@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baixando fontes e Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'Volt';
+            src: url('fonts/Voltec\ Free\ Version.otf') format('opentype'), url('fonts/Voltec\ Free\ Version.otf');
+
+            /*
+                Tipos de format ()
+                - opertype (otf)
+                - truetype (ttf)
+                - embedded-opertype
+                - truetype-aat (apple advanced typography)
+                - svg
+            */
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'Volt';
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sequi ab voluptatibus officiis doloremque. Pariatur omnis laboriosam et voluptatum, sed nobis porro illum ipsam quae earum? Quidem nulla pariatur perferendis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae magni pariatur dolorum ut alias, laudantium possimus molestias minus rerum, veritatis qui laborum vitae obcaecati cum placeat, assumenda tenetur. Soluta, ab! <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa assumenda eos praesentium placeat, voluptatibus quia laboriosam fugit soluta nam tempore neque veritatis illum quos odio, odit dolor quo adipisci obcaecati.
+    </p>
+</body>
+</html>

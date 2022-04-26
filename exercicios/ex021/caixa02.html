@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #F08836;
+        }
+        header{
+            margin: auto;
+            background-color: #34A372;
+            padding: 10px; /* padding seria a margem de dentro */
+            margin: 10px; /* margem externa */
+        }
+        nav{
+            padding: 5px;
+            background-color: #F08836;
+            box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.589);
+            border-radius: 5px 5px 5px 5px;
+        }
+        nav > a{
+            margin-left: 10px;
+            margin-right: 20px;
+        }
+        main{
+            background-color: #34A372;
+            display: flex;
+            padding: 10px;
+            margin: 30px;
+            box-shadow: -10px 15px 20px black;
+            border-radius: 0px 15px 15px 15px;
+        }
+        section#assuntos{
+            background-color: #2970F0;
+            margin-right: 10px;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        footer{
+            background-color: #34A372;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 0px 20px;
+        }
+        h1{
+            color: #F08836;
+        }
+        h2{
+            color: #F08836;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>titulo</h1>
+        <nav>
+            <a href="site-model.html">Formula 1</a>
+            <a href="">Esportes</a>
+            <a href="">Apostas</a>
+            <a href="">Youtube</a>
+            <a href="">GitHub</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <a href="site-model.html">Formula 1</a>
+            <a href="">Esportes</a>
+            <a href="">Apostas</a>
+            <a href="">Youtube</a>
+            <a href="">GitHub</a>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticias do brasil il</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aliquid dolorem perferendis laboriosam aspernatur reprehenderit quibusdam? Maxime voluptatum provident sapiente voluptates, repudiandae, id amet placeat laboriosam illo, reprehenderit ullam expedita?</p>
+                <aside>
+                    <p>artigo igo</p>
+                </aside>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sed totam minus incidunt? Praesentium, quibusdam rem, laudantium dolor veniam aut aperiam omnis error cum, mollitia itaque dolorum adipisci magni suscipit.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        telefone (19) 3355-4455 <br> 19 9 9955-4488 <a href="https://www.whatsapp.com/?lang=pt_br" target="_self"><img src="img/WhatsApp_icon.png" alt="Whatsapp" width="18px" height="18px"></a> <br>
+        desenvolvido pelo zé
+    </footer>
+</body>
+</html>

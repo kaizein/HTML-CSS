@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/* IMPORT DA FONTE BEBAS NEUE | AMIRI | AUDIOWIDE*/
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Audiowide&family=Bebas+Neue&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    background-color: rgba(137, 43, 226, 0.831);
+}
+
+header{
+    background-color: black;
+    height: 150px;
+}
+
+header > h1{
+    color: yellow;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    padding-top: 40px;
+}
+
+article > h1{
+    background-image: linear-gradient(to right, yellow, transparent);
+    padding: 3px;
+}
+
+nav{
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: yellow;
+    padding: 4px 8px;
+    font-family: 'Bebas Neue';
+    font-size: 1.5em;
+    border-radius: 20px;
+    transition-duration: 3s;
+}
+nav > a:hover{
+    background-color: rgba(245, 245, 245, 0.596);
+}
+
+.link{
+    color: orangered; 
+    font-family: 'Amiri'; 
+    font-size: normal;
+    text-decoration: none;
+}
+.link:hover{
+    background-color: rgba(0, 0, 0, 0.262);
+    border-radius: 25px;
+    padding: 2px 4px;
+    transition-duration: 2s;
+}
+
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
+}
+
+p{
+    font-family: 'Amiri';
+    font-weight: 500;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+aside{
+    background-color: orangered;
+    padding: 6px 6px;
+    text-align: center;
+}
